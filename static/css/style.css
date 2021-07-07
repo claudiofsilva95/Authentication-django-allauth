@@ -7,13 +7,28 @@ body {
 h1, p {
     text-align: center;
 }
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 20% 10px;
+}
 
 .form {
     width: 100%;
     display: flex;
     justify-content: center;
     height: 600px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .div-form {
@@ -51,5 +66,11 @@ h1, p {
 .div-btn {
     display: flex;
     justify-content: center;
+}
+
+.errorlist {
+    color: red;
+    font-size: 1rem;
+    list-style: none;
 }
 
